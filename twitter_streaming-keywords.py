@@ -7,6 +7,9 @@ from tweepy import OAuthHandler
 from tweepy import Stream
 from auth import TwitterAuthKeywords
 
+auth = OAuthHandler(TwitterAuthKeywords.consumer_key, TwitterAuthKeywords.consumer_secret)
+auth.set_access_token(TwitterAuthKeywords.access_token, TwitterAuthKeywords.access_token_secret)
+
 """
 ----------------
 K E Y W O R D S
@@ -37,15 +40,13 @@ class StdOutListener(StreamListener):
 T H E   L O O P
 ----------------
 """
-# this is to that the script can be interrupted (ctrl+c)
-try:
+
+try: # this is to that the script can be interrupted (ctrl+c)
     while True:
         if __name__ == '__main__':
 
-            #This handles Twitter authetification and the connection to Twitter Streaming API
+            #Instantiates the StdOutListener
             l = StdOutListener()
-            auth = OAuthHandler(TwitterAuthKeywords.consumer_key, TwitterAuthKeywords.consumer_secret)
-            auth.set_access_token(TwitterAuthKeywords.access_token, TwitterAuthKeywords.access_token_secret)
             stream = Stream(auth, l)
 
             #This line filter Twitter Streams to capture data by the keywords: 'architecture' etc.

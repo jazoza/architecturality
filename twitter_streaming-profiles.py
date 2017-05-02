@@ -9,6 +9,9 @@ from tweepy import Stream
 from auth import TwitterAuthProfiles
 import pickle
 
+auth = OAuthHandler(TwitterAuthProfiles.consumer_key, TwitterAuthProfiles.consumer_secret)
+auth.set_access_token(TwitterAuthProfiles.access_token, TwitterAuthProfiles.access_token_secret)
+
 """
 ----------------
 P R O F I L E S
@@ -48,8 +51,6 @@ try:
         if __name__ == '__main__':
             #This handles Twitter authetification and the connection to Twitter Streaming API
             l = StdOutListener()
-            auth = OAuthHandler(TwitterAuthProfiles.consumer_key, TwitterAuthProfiles.consumer_secret)
-            auth.set_access_token(TwitterAuthProfiles.access_token, TwitterAuthProfiles.access_token_secret)
             stream = Stream(auth, l)
 
             #This line filter Twitter Streams to capture data by the keywords: 'architecture' etc.
