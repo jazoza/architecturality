@@ -5,6 +5,7 @@
 The first analysis on the text is made using the tweet text, which has been imported from the eight .csv files collected with the scraping script.
 
 ```python
+import pandas as pd
 from os import listdir
 from os.path import isfile, join
 
