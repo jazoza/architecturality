@@ -16,7 +16,7 @@ K E Y W O R D S
 ----------------
 """
 # list of keywords to listen to; should include these when appear as hashtag too (e.g. architecture, #architecture)
-keywords = ['BIM', 'DynamoBIM', 'Revit', 'AutoCAD', 'Autodesk', 'Rhinoceros 3D', 'Grasshopper 3D', 'Rhino 3D', 'CAAD', 'computer-aided', 'data-driven', 'model-based', '3dprint', 'parametric', 'parametricism',  'parametricist']
+keywords = ['BIM', 'DynamoBIM', 'Revit', 'AutoCAD', 'Autodesk', 'Rhinoceros 3D', 'Grasshopper 3D', 'Rhino 3D', 'CAAD', 'computer-aided', 'data-driven', 'model-based', '3dprint', 'parametric', 'parametricism',  'parametricist', 'IoT', 'iot', 'sensor', 'network']
 
 """
 ----------------
