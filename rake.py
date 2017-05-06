@@ -1,6 +1,7 @@
 # Adapted from: github.com/aneesha/RAKE/rake.py by Sujit Pal
 # available at http://sujitpal.blogspot.co.at/2013/03/implementing-rake-algorithm-with-nltk.html
 # fixed the .inc Attribute error (jazoza)
+# not very useful for a string of tweets without endstops - simply puts everything in a bunch 
 from __future__ import division
 import operator
 import nltk

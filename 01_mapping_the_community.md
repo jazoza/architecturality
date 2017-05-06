@@ -29,12 +29,23 @@ By carefully observing the tweets from this collection, with the help of a visua
 ```
 LIST FROM A4
 ```
+![Wordcloud of tweets collected from the list of eight profiles, all (from 27. 02. to 28. 02. 2017)](https://goo.gl/photos/8xnJc2jhhhgezR3j7)
 
+In the wordcloud, I look for non-ambiguous words that are relevant for the question on relationships of computation to architecture. A preliminary list of keywords that can be observed:
+
+`tools: [Revit, Dynamo, DynamoBIM, 3dprint, Grasshopper, Autodesk]; architecture: [architect, building, build, project, construction]; tech: [data, technology, robotic, node]`
+
+## Extending the list, towards a community
+
+How to select the right users to observe? How to determine a community? Relying on methods described by Gradjean [^gradjean](Martin Grandjean. 2016. A Social Network Analysis of Twitter: Mapping the Digital Humanities Community. Cogent Arts & Humanities 3, 1). Use keywords identified in the wordclouds to filter users initially.
 
 ```
 keywords = ['BIM', 'DynamoBIM', 'Revit', 'AutoCAD', 'Autodesk', 'Rhinoceros 3D', 'Grasshopper 3D', 'Rhino 3D', 'CAAD', 'computer-aided', 'data-driven', 'model-based', '3dprint', 'parametric', 'parametricism',  'parametricist']
 ```
+![Wordcloud of tweets collected by streaming a list of profiles (from 31. 03. to 12. 04. 2017)](https://goo.gl/photos/nWyFYyCnkHZyqVLP8)
+
+![Wordcloud of tweets collected by listening to a list of keywords (from 31. 03. to 12. 04. 2017)](https://goo.gl/photos/45psXRdkbbUzL5nX6)
 
 ## Keywords vs Profiles
 
-word ambiguity is reduced when listening to profiles, because the community of architects mostly means architecture in the sense of buildings and not computer hardware. 
+word ambiguity is reduced when listening to profiles, because the community of architects mostly means architecture in the sense of buildings and not computer hardware.
