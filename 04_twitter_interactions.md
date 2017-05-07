@@ -63,7 +63,7 @@ Note: Some time after the last check within this iteration (28.02.2017 at 16:50)
 
 ### adapting the bot to keep updating, and remove @mentions
 
-To avoid immediate dismissal of the bot's tweeets by the community, I decided to remove @mentions from the tweeted text and build up a base of interesting tweets, build a sort of a reputation on the platform. At the same time, I consider essential to be able to engage meaningfully with the user profiles, and for this a new tool needs to be developed.
+To avoid immediate dismissal of the bot's tweets by the community, I decided to remove @mentions from the tweeted text and build up a base of interesting tweets, build a sort of a reputation on the platform. At the same time, I consider essential to be able to engage meaningfully with the user profiles, and for this a new tool needs to be developed.
 
 The other important change was to keep updating the Markov chain model with incoming tweet. This meant repeatedly checking for tweets from the accounts I was listening to, and was the reason to switch from SCRAPING to STREAMING.
 
