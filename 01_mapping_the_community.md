@@ -42,10 +42,10 @@ How to select the right users to observe? How to determine a community? Relying 
 ```
 keywords = ['BIM', 'DynamoBIM', 'Revit', 'AutoCAD', 'Autodesk', 'Rhinoceros 3D', 'Grasshopper 3D', 'Rhino 3D', 'CAAD', 'computer-aided', 'data-driven', 'model-based', '3dprint', 'parametric', 'parametricism',  'parametricist']
 ```
-![Wordcloud of tweets collected by streaming a list of profiles (from 31. 03. to 12. 04. 2017)](http://architecturality.kucjica.org/wordcloud-04-12-profiles.png)
+[Wordcloud of tweets collected by streaming a list of profiles (from 31. 03. to 12. 04. 2017)](http://architecturality.kucjica.org/wordcloud-04-12-profiles.png)
 
-![Wordcloud of tweets collected by listening to a list of keywords (from 31. 03. to 12. 04. 2017)](http://architecturality.kucjica.org/wordcloud-04-12-keywords.png)
+[Wordcloud of tweets collected by listening to a list of keywords (from 31. 03. to 12. 04. 2017)](http://architecturality.kucjica.org/wordcloud-04-12-keywords.png)
 
 ## Keywords vs Profiles
 
-word ambiguity is reduced when listening to profiles, because the community of architects mostly means architecture in the sense of buildings and not computer hardware. This first exploration of efficiency of the two streaming approaches is inconclusive and we continue to collect two sets of tweets. 
+word ambiguity is reduced when listening to profiles, because the community of architects mostly means architecture in the sense of buildings and not computer hardware. This first exploration of efficiency of the two streaming approaches is inconclusive and we continue to collect two sets of tweets.
