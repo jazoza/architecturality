@@ -21,6 +21,7 @@ Using different tools to identify keywords, word frequencies and other regularit
 ## 04. talking back, twitter interactions
 Using the corpus of collected tweets to tweet back to the community. Tweeting "back" means using screen names and hashtags that are characteristic to this loosely defined community. Observing the interactions.
 
+## 05. multitude of bots. interactions
 --
 
 Chair for Architectural Theory and Philosophy of Technics, Institute For Architectural Sciences, TU Vienna.
