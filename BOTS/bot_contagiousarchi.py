@@ -35,7 +35,7 @@ def atd():
     tweets_l = [parse_tweets_list(tweet) for tweet in d['text'].tolist()]
     text = '. '.join(tweets_l)
     model_tweets = markovify.Text(text, state_size=1)
-    model_combo = markovify.combine([model_tweets,model_contagiousarch],[1,5])
+    model_combo = markovify.combine([model_tweets,model_contagiousarch],[1,3])
     tweetTXT = model_combo.make_short_sentence(130)
     tweetWITHmention=tweetTXT+' '+mention()
     print(tweetWITHmention)
