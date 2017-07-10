@@ -29,6 +29,8 @@ By carefully observing the tweets from this collection, with the help of a visua
 ```
 LIST FROM A4
 ```
+Wordcloud of tweets collected from the list of eight profiles, all (from 27. 02. to 28. 02. 2017):
+
 ![Wordcloud of tweets collected from the list of eight profiles, all (from 27. 02. to 28. 02. 2017)](http://architecturality.kucjica.org/wordcloud-02-28.png)
 
 In the wordcloud, I look for non-ambiguous words that are relevant for the question on relationships of computation to architecture. A preliminary list of keywords that can be observed:
@@ -42,9 +44,13 @@ How to select the right users to observe? How to determine a community? Relying 
 ```
 keywords = ['BIM', 'DynamoBIM', 'Revit', 'AutoCAD', 'Autodesk', 'Rhinoceros 3D', 'Grasshopper 3D', 'Rhino 3D', 'CAAD', 'computer-aided', 'data-driven', 'model-based', '3dprint', 'parametric', 'parametricism',  'parametricist']
 ```
-[Wordcloud of tweets collected by streaming a list of profiles (from 31. 03. to 12. 04. 2017)](http://architecturality.kucjica.org/wordcloud-04-12-profiles.png)
+Wordcloud of tweets collected by streaming a list of profiles (from 31. 03. to 12. 04. 2017):
 
-[Wordcloud of tweets collected by listening to a list of keywords (from 31. 03. to 12. 04. 2017)](http://architecturality.kucjica.org/wordcloud-04-12-keywords.png)
+![Wordcloud of tweets collected by streaming a list of profiles (from 31. 03. to 12. 04. 2017)](http://architecturality.kucjica.org/wordcloud-04-12-profiles.png)
+
+Wordcloud of tweets collected by listening to a list of keywords (from 31. 03. to 12. 04. 2017):
+
+![Wordcloud of tweets collected by listening to a list of keywords (from 31. 03. to 12. 04. 2017)](http://architecturality.kucjica.org/wordcloud-04-12-keywords.png)
 
 ## Keywords vs Profiles
 

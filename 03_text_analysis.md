@@ -263,7 +263,7 @@ However, this list is highly imperfect. A probably more efficient approach is to
 
 #### Hashtags
 
-The list of unique hashtags was obtained from the same collection of tweets used above. In a total of 18473 tweets, there are 12785 hashtags, less than a quarter of them unique - 3607 words. These words are stored in a file,
+The list of unique hashtags was obtained from the same collection of tweets used above. In a total of 18473 tweets, there are 12785 hashtags, less than a quarter of them unique - 3607 words. These words are stored in a file (which file)
 
 
 ## STREAMING
@@ -280,12 +280,13 @@ d = pd.concat([pd.read_json(f, lines=True) for f in files], keys=files)
 Furthermore, using the same preprocessing functions and method for selecting only tweet text from the dataframe, we prepare a string of tweets.
 
 As discussed in 02_gathering-tweets, two sets of tweets were collected using the STREAMING method: tweets filtered by keyword and tweets filtered by profile. This is an opportunity to compare these collections and their relevance to the reserach.
-
+-rlt
 #### PROFILE
 tweets (number of words): 227166
 tweets_l (number of tweets): 3632
 hashtags: 511 unique (total of 2326)
-## Further
+
+## Further analysis (images etc.)
 
 ### <a name="extractingimages"></a>Extracting images (media) from collected tweets
 
@@ -299,4 +300,22 @@ for label, value in df_profile.entities.iteritems(): # iterate through the dicti
   if type(value)==dict and 'media' in value.keys(): # some value.keys are nan, and their type is 'float'
     for thing in value['media']:
       urllib.urlretrieve(thing['media_url'],'%s.jpg' %label) # save all images with the unique of their index in the df
+```
+
+###EXTRAS
+
+Check json file for errors:
+
+```
+def parse():
+  files = [f for f in listdir('.') if f.endswith('.json') and isfile(join('.', f))]
+  for afile in files:
+    with open(afile) as json_file:
+      try:
+        json.load(json_file)
+        read_json_files.append(afile)
+      except ValueError, e:
+        print ("JSON object issue: %s") % e
+        invalid_json_files.append(afile)
+  print invalid_json_files, len(read_json_files)
 ```
