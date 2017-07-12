@@ -20,4 +20,7 @@ from Sunday 09. July at 17:10 to ???
 Changed the state size to 1 in generation of the models. Running all 6 bots from 1PM. Stopped at midnight.
 
 ### Tuesday 11.07.2017
-Transfered the code for all the bots to one file, where they can be ran together. Running from 00h08
+Transferred the code for all the bots to one file, where they can be ran together. Running from 00h08
+
+### Wednesday 12.07.2017
+Made some changes in the all bots file, corrected the "mentions" function and included a new markovify class. Running the bots from 22h10.

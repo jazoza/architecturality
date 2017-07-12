@@ -1,4 +1,5 @@
 .DS_Store
+.~lock*
 *.pyc
 userID.txt
 auth.py
@@ -6,3 +7,4 @@ keyword_tweets.json
 profile_tweets.json
 BOTS/*txt
 BOTS/*_auth.py
+BOTS/*json
