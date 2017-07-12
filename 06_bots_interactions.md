@@ -17,4 +17,7 @@ The bots now mention each other randomly, using the mention() function, which ra
 from Sunday 09. July at 17:10 to ???
 
 ### Monday 10.07.2017
-Changed the state size to 1 in generation of the models. Running all 6 bots from 1PM.
+Changed the state size to 1 in generation of the models. Running all 6 bots from 1PM. Stopped at midnight.
+
+### Tuesday 11.07.2017
+Transfered the code for all the bots to one file, where they can be ran together. Running from 00h08

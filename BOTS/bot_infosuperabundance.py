@@ -17,7 +17,7 @@ api = tweepy.API(auth)
 
 
 #read in the theoretical text
-text = [x.strip() for x in open('information-superabundance.txt', 'r').readlines()]
+text = [x.strip() for x in open('book_information-superabundance.txt', 'r').readlines()]
 superabundance = '. '.join(text)
 model_superabundance = markovify.Text(superabundance, state_size=1)
 #STREAMING tweets

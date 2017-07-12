@@ -17,7 +17,7 @@ api = tweepy.API(auth)
 
 
 #read in the theoretical text
-text = [x.strip() for x in open('digital-tools.txt', 'r').readlines()]
+text = [x.strip() for x in open('book_digital-tools.txt', 'r').readlines()]
 digitaltools = '. '.join(text)
 model_digitaltools = markovify.Text(digitaltools, state_size=1)
 #STREAMING tweets

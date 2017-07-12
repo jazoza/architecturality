@@ -17,7 +17,7 @@ api = tweepy.API(auth)
 
 
 #read in the theoretical text
-text = [x.strip() for x in open('contagious-architecture.txt', 'r').readlines()]
+text = [x.strip() for x in open('book_contagious-architecture.txt', 'r').readlines()]
 contagiousarch = '. '.join(text).decode('utf-8')
 model_contagiousarch = markovify.Text(contagiousarch, state_size=1)
 #STREAMING tweets

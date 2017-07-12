@@ -17,7 +17,7 @@ api = tweepy.API(auth)
 
 
 #read in the theoretical text
-text = [x.strip() for x in open('extrastatecraft.txt', 'r').readlines()]
+text = [x.strip() for x in open('book_extrastatecraft.txt', 'r').readlines()]
 activeform = '. '.join(text).decode('utf-8')
 model_activeform = markovify.Text(activeform, state_size=1)
 #STREAMING tweets

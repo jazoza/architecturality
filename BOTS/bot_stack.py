@@ -17,7 +17,7 @@ api = tweepy.API(auth)
 
 
 #read in the theoretical text
-text = [x.strip() for x in open('stack.txt', 'r').readlines()]
+text = [x.strip() for x in open('book_stack.txt', 'r').readlines()]
 stack = '. '.join(text)
 model_stack = markovify.Text(stack, state_size=1)
 #STREAMING tweets

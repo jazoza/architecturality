@@ -17,7 +17,7 @@ api = tweepy.API(auth)
 
 
 #read in the theoretical text
-text = [x.strip() for x in open('digital-immanence.txt', 'r').readlines()]
+text = [x.strip() for x in open('book_digital-immanence.txt', 'r').readlines()]
 digitimmanence = '. '.join(text)
 model_digitimmanence = markovify.Text(digitimmanence, state_size=1)
 #STREAMING tweets
