@@ -5,7 +5,7 @@
 AUOMATE TWEETS USING MARKOVIFY MODULE
 ---------------------
 """
-import tweepy, time, markovify, random, re, nltk, csv
+import tweepy, time, markovify, random, re, nltk
 import pandas as pd
 from os import listdir
 from os.path import isfile, join
@@ -63,6 +63,7 @@ def parse_tweets_list(x):
         return re.sub(r'(?:@[\w_]+)', ' ', x) # remove mentions
     except TypeError:
         return unicode('') # turn floats into empty strings
+    # consider this post https://stanford.edu/~rjweiss/public_html/IRiSS2013/text2/notebooks/cleaningtext.html 
 
 # generate a tweet
 def atd(api,model,emphasis):

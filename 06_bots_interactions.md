@@ -24,3 +24,14 @@ Transferred the code for all the bots to one file, where they can be ran togethe
 
 ### Wednesday 12.07.2017
 Made some changes in the all bots file, corrected the "mentions" function and included a new markovify class. Running the bots from 22h10.
+
+Created a Data Science VM, Ubuntu based and used it to test generating text by training a network following these instructions: http://machinelearningmastery.com/text-generation-lstm-recurrent-neural-networks-python-keras/
+
+The model is trained on Extrastatecraft text.
+
+First I ran three epochs, with the smallest loss of 2.6smth. The results are as follows:
+From this randomly selected sample: `the broadband capacity that will make them viable job creators`
+
+It created the following sentences, a sequence of 1,000 characters:
+
+`isiti  and the sorer of the cosirnition of the cosirnition of the cosirnition of the cosirnition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the cosirrition of the co`
