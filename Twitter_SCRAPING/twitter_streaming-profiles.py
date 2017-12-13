@@ -32,13 +32,13 @@ S T R E A M E R
 class StdOutListener(StreamListener):
 
     def on_data(self, data):
-        #print data
+        print(data)
         with open('profile_tweets.json','a') as tf:
             tf.write(data)
         return True
 
     def on_error(self, status):
-        print status
+        print(status)
 
 """
 ----------------

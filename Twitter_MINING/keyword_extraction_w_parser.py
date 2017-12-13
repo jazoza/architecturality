@@ -13,12 +13,13 @@ import subprocess
 filepath = os.path.abspath(os.path.dirname(__file__))
 
 reload(sys)
-sys.setdefaultencoding('utf8')
+
+#sys.setdefaultencoding('utf8')
 
 from pattern.en import parse
 
 stopwords = []
-with open('twitter-sentiment-analysis-stopwords.txt','r') as s_file:
+with open(filepath+'/twitter-sentiment-analysis-stopwords.txt','r') as s_file:
 	for line in s_file.readlines():
 		stopwords.append(line.strip())
 
@@ -97,7 +98,7 @@ def get_entities_from_phrase(tagged_sent, phrase2consider):
 	bio_tags = [normalise(x.split('/')[0])+ '\t'+ x.split('/')[2] for x in word]
 	bio_text = '\n'.join(bio_tags)
 	mention2entities = extract_entity(bio_text)
-	print mention2entities.keys()
+	print(mention2entities.keys())
 
 	## strip off unacceptable words
 	_mention2entities = {}
@@ -184,10 +185,10 @@ if __name__ == '__main__':
 	queries = ["The mobile web is more important than mobile apps.", "As a #roadmapscholar, I highly recommend #startup bootcamp for #founders by @andrewsroadmaps : http://t.co/ZBISIMEBRH (http://t.co/VF5CojRWNF)", "RT @andrewsroadmaps: Proud of @naushadzaman &amp; @WasimKhal for winning the #IBMWatson hackathon! #roadmapscholars https://t.co/08sbAjKWKu."]
 
 	for query in queries:
-		print 'query', query
-		print 'get_keywords(query)', get_keywords(query)
-		print "get_keywords(query, ['NP'])", get_keywords(query, ['NP'])
-		print "extract_hashtag(query)", extract_hashtag(query)
-		print "extract_users(query)", extract_users(query)
-		print "extract_link(query)", extract_link(query)
-		print ''
+		print('query', query)
+		print('get_keywords(query)', get_keywords(query))
+		print("get_keywords(query, ['NP'])", get_keywords(query, ['NP']))
+		print("extract_hashtag(query)", extract_hashtag(query))
+		print("extract_users(query)", extract_users(query))
+		print("extract_link(query)", extract_link(query))
+		print('')
