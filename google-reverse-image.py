@@ -144,15 +144,3 @@ for result in requests.get(url.format(apiKey, cx, q)).json()['items']:
       image.raw.decode_content = True
       shutil.copyfileobj(image.raw, f)
     i += 1
-Dear Dirk,
-Here is the first round of feedback from our side. If there is anything unclear, we will be happy to discuss tomorrow. Please take into consideration the proposed selection of your case studies.
-
-Very good introduction of the topic, the observation of separation of activities to the level of pedestrian traffic (and not only zoning) is an interesting place to focus on. It is important to talk abut the division of functions as a modernist heritage. 
-
-However, I think it will be difficult to compare a 2 million (4 million metropolitan) people city of Brasilia (built for 500 000) which is in the middle of uninhabited land in Brazil and Seestadt Aspern at the outskirts of Vienna in the middle of urban Europe (connected by all kinds of transport and activity) - merely based on urban planning approaches. It is true that the approach to Brasilia is very radical and pervasive, but even in its manifestation it is not what is what it was planned to be (there is more people, more disorder). Brasilia is the political capital of a country. Seestadt is a suburb.
-
-I think it would be better to find a similar context to Seestadt Aspern when a modernist extra-city was constructed at outskirts of a larger city. An example that comes to mind is New Belgrade - a modernist suburb entirely constructed on modernist principles, after WWII (I have some literature on this). There is of course a lot of other examples. It would be equally interesting to choose one near Vienna or, even more interesting to opt for Lelystad near Amsterdam, https://en.wikipedia.org/wiki/Lelystad (it has similar economical premises as Austria, it was built in one go, founded in 1967 and very prominently modern).
-
-In any case (whichever comparison you decide to make) a concrete framework of comparison needs to be articulated: are you going to look for the way pedestrian zones are embedded (or not even planned) in the two cases? Or are you going to look more into the organization of public space in general, and zoning? Design of public space? This can be answered through a recount of the two approaches (modernist approach, Jan Gehl approach) which can be the starting point for the work to be done on the thesis. You should focus on the way certain policies are articulated (I am not at all familiar with the work of Jan Gehl apart from his movie The Human Scale; I do not know how he articulates a planning approach, and if at all). For tomorrow's presentation, you should be able to introduce him to us.
-
-Best Regards,
