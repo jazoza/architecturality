@@ -5,7 +5,7 @@
 AUOMATE TWEETS USING MARKOVIFY MODULE
 ---------------------
 """
-import tweepy, time, markovify, random, re, csv
+import tweepy, time, markovify, random, re
 import pandas as pd
 from os import listdir
 from os.path import isfile, join
@@ -21,7 +21,7 @@ def parse_tweets_list(x):
     try:
         return re.sub(r'(?:@[\w_]+)', ' ', x) # remove mentions
     except TypeError:
-        return unicode('') # turn floats into empty strings
+        return ('') # turn floats into empty strings
 
 # generate a tweet
 def atd():
@@ -69,9 +69,20 @@ def atd():
     api.update_status(tweetTXT)
 """
 
+# RETWEATING
+keywords = ['architects', 'architecture', 'autocad', 'autodesk', 'bim', 'building', 'concrete', 'construction', 'data', 'design', 'digital', 'engineering', 'future', 'housing', 'passivhaus', 'revit', 'tech', 'technology']
+
+
+
 try:
     while True:
         atd() # run the tweet generating function
+        for word in keywords:
+            for tweet in tweepy.Cursor(api.search,q=word).items(1):
+                try:
+                    tweet.favorite()
+                except tweepy.TweepError as e:
+                    print(e.reason)
         time.sleep(random.randint(120,1200))
 except KeyboardInterrupt:
     pass
