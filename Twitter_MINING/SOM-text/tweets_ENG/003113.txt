@@ -1,0 +1,1 @@
+@AutodeskHelp using Fusion, I need to create a dimension in a detail view with only one reference point. Usually there's a double arrow.

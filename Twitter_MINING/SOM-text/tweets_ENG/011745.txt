@@ -1,0 +1,1 @@
+@ZachKron Select a Revit object and it takes you to the node in Dynamo where it was created. Prevents manual change… https://t.co/CbWr2jHQ2S

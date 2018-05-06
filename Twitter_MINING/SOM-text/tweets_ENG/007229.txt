@@ -1,0 +1,1 @@
+@autodesk @AutodeskEDU What is the best way to import .stp files into #Maya2017. Thanks!

@@ -1,0 +1,1 @@
+@AutodeskHelp Will do :) Maybe its the scale of the object that Maya is having trouble to locate.

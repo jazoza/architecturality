@@ -1,0 +1,5 @@
+RT @BillDebevc: I am a bit slow / tired this morning.   So I wrote some code. 
+
+If Tired = Yes Then
+  get.caffeine (lots)
+End if

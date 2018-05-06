@@ -1,0 +1,1 @@
+@AutodeskHelp can you use Maya to create G-code for  Mach3 software to use on a CNC machine. or transfer Maya to Fusion 360 and use in Mach3

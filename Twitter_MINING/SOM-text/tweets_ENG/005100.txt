@@ -1,0 +1,1 @@
+@AutodeskHelp how can I convert .CATpart file to .ipt to use in my autodesk Inventor software.

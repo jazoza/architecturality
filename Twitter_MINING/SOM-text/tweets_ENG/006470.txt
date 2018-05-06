@@ -1,0 +1,1 @@
+@autodesk Can you guys check to make sure the HPMAXLINES "resolution" isn't accidentally auto-suggested on all crashes, cause this is weird.

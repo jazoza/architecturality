@@ -1,0 +1,1 @@
+@AutodeskHelp if a user is going from 2002 autocad to the newest version. Are the commands the same?

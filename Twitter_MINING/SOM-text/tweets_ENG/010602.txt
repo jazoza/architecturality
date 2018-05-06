@@ -1,0 +1,1 @@
+@BIM4Struc @thinkBIM I think it’s the sample model in Revit, it gets used a lot ;)

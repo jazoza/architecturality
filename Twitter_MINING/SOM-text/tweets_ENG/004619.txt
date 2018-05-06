@@ -1,0 +1,1 @@
+@AutodeskHelp Now I need help. When I have a lot of object, the viewport use long time to render them all, when Im copying and pasting #Maya

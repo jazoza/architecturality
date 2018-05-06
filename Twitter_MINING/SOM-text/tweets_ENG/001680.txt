@@ -1,0 +1,1 @@
+RT @aothms: Our paper on a IFC extension for #PointClouds just went online + Efficient binary storage format for IFC using HDF5… 

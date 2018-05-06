@@ -1,0 +1,1 @@
+@AutodeskHelp Hey, do you know why dynamic input will turn itself back on when I restart AutoCAD (2018 LT)?

@@ -1,0 +1,1 @@
+@MesMatyas You will need to take your file into a CAM program, such as #Fusion360 to get g-code. ^MD

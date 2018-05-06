@@ -1,0 +1,1 @@
+@AutoCAD I was doing this by typing ACADR12 in DOS. :) it was in R14 that I experienced in Windows.

@@ -1,0 +1,1 @@
+@AutodeskHelp Hi.Maya gives"Fatal error.Attemptin to save in C:/Users/..."Already changed sys variable,updated directx and nvidia. Help pls

@@ -1,0 +1,1 @@
+@gobluejd You will need to save the 2018 DWG as a 2017 DWG, then change the file extension to a DWT in explorer. (1/2)

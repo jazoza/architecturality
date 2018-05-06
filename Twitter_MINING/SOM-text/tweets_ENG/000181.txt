@@ -1,0 +1,1 @@
+@AutodeskHelp I want to create a script file that deletes exactly 1/2 the chars in that attribute field, what is the command?

@@ -1,0 +1,1 @@
+@jvandezande at #RevitDC: The next step in BIM validation is "model logic checking" (ADA? Support for structural elements?)

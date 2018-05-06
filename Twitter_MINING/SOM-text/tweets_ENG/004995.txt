@@ -1,0 +1,1 @@
+@AutodeskHelp No I still have my project files but max 2017 keeps crashing on startup, and im not sure what to do

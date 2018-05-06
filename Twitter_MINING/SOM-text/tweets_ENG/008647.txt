@@ -1,0 +1,1 @@
+@AutodeskHelp Autodesk ReCap installation freezes on Initialization. Please provide the full download package for Recap 2018.

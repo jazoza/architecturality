@@ -1,0 +1,3 @@
+@AutodeskHelp Hi how can export from Autocad 2017 to g-code(*.cnc) or what can i do ?
+
+M.M

@@ -1,0 +1,1 @@
+@AHDeleuran Also, good job integrating ShapeOp libary into Grasshopper via Python. You guys used SWIG to generate t… https://t.co/fvfiCoLSkR

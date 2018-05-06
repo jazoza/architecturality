@@ -1,0 +1,8 @@
+Here is one for the office
+
+Imports @Starbucks
+For each Designer in Office
+  If Desginer.Tired = True
+    Get.Caffeine (lots)
+  End if
+Next

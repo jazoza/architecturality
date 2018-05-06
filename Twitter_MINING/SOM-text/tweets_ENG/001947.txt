@@ -1,0 +1,1 @@
+@autodesk is it still possible to get metric fasteners as blocks in CAD? I remember using them in earlier versions but I'm using 2016 now

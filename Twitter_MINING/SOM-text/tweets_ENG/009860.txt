@@ -1,0 +1,5 @@
+RT @BIMextension: #BIM:
+
+Building = Coordination
+Information =  Data
+Modeling = Geometry

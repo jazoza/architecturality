@@ -1,0 +1,1 @@
+RT @Jos_ols: Anyone in the Twitter sphere know of a fast Mesh/Ray intersection algorithms that could easily be ported to Dynamo? Point.Proj…

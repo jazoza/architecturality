@@ -1,0 +1,2 @@
+@AutodeskHelp 
+The "converted" wall category in Revit does not show the right "area" values and I don't woant to use calculate parameters.

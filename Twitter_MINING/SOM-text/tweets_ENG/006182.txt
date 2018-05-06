@@ -1,0 +1,1 @@
+@AutodeskHelp Issue solved. Camera Based Selection was the reason that the some faces got selected when I didnt sel… https://t.co/uy1JuBp0Ug

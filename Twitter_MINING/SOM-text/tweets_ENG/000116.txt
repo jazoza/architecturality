@@ -1,0 +1,1 @@
+@AutodeskHelp Using batch attribute editor autolisp program, need to grab file name and put into attribute field, what is the code? Thx!

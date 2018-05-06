@@ -1,0 +1,2 @@
+@AutodeskHelp Hi Autodesk, I want ask something about AutoCAD ,
+We use autocad and can link to BOM example of bill of material and detail of

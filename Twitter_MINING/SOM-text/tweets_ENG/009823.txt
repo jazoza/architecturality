@@ -1,0 +1,5 @@
+#BIM:
+
+Building = Coordination
+Information =  Data
+Modeling = Geometry

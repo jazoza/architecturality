@@ -1,0 +1,1 @@
+@AutodeskHelp fyi, the issue people are having with Maya/Stingray due to the recent WindowsUpdate was the MS removal of: msvcp110.dll

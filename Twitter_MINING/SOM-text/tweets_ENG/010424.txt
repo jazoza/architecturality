@@ -1,0 +1,1 @@
+@msonenote Please fix the issue with poor image/printout quality iOS. Weird it only happens when printing from Windows.

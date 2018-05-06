@@ -1,0 +1,1 @@
+@AutodeskHelp I keep changing the line weight but there is no difference in the model view

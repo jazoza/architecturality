@@ -1,0 +1,1 @@
+@AutodeskHelp I'm good now thanks, my dashed line wasn't appearing on my paper space  and managed to fix it by changing the PSLTSCALE 👍

@@ -1,0 +1,1 @@
+@JholderBC What is the version? Go to "About AutoCAD Plant 3D" within the product in the help (?) drop down. ^NL

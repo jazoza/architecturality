@@ -1,0 +1,1 @@
+@AutodeskHelp Ctrl+right click works well. Thanks!

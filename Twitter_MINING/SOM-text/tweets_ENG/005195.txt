@@ -1,0 +1,1 @@
+@roryone @archimatix Is this editing the height map of the terrain with a pre-defined object on the mesh? Its very cool!

@@ -1,0 +1,1 @@
+@AutodeskHelp I have an attribute value (File name) that is duplicated, how to find midpoint of the string and delete half of it with code?

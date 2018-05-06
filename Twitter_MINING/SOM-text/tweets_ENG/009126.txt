@@ -1,0 +1,1 @@
+@AutodeskHelp I emailed our third-party software folks that work with Autodesk and they are seeing the same problem.

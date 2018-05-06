@@ -1,0 +1,1 @@
+RT @ColinMcCrone: My challenge problem for a complex data in GH/Dynamo class: Draw lines on each side of a cube to form 2x2, 3x3, etc… 

@@ -1,0 +1,1 @@
+@autodesk It's possible a PDF archive created as image (not for plotter) from a DWG native archive to keep all original vetorial properties?

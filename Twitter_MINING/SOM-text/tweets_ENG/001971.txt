@@ -1,0 +1,1 @@
+@AHDeleuran @DynamoBIM @AECHackathon It is indeed based on the same math framework from the ShapeOp paper, hence the name DynaShape ;)

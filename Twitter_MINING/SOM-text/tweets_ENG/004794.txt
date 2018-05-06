@@ -1,0 +1,1 @@
+@DynamoBIM Maybe a silly question,but are the default graphics in Dynamo scalable? (i.e Coordianate Systems). They are super tiny in Metric!

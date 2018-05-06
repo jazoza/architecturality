@@ -1,0 +1,1 @@
+@Vectorworks Legends all in res. browser and appear in obj. Info pallet drop down but not in lighting device window drop down

@@ -1,0 +1,1 @@
+@AutoCAD @cadintentions As example: Use WSCURRENT at #CommandLine, and just hit Enter. Should be same when using… https://t.co/f5xzC5LtM0

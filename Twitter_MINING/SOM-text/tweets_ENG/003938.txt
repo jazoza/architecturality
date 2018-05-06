@@ -1,0 +1,1 @@
+@thesloner Yes - @archimatix has a PrefabInstancer node with a ref to any Prefab in the project and outputs to any other node in the graph.

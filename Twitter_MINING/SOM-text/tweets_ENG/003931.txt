@@ -1,0 +1,1 @@
+@roryone Is it possible to use game objects in a repeater?  Would be nice to place FX and lights automatically.
